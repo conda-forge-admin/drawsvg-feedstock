@@ -1,5 +1,6 @@
 {% set name = "drawSvg" %}
-{% set version = "2.4.2" %}
+{% set version = "2.5.0" %}
+{% set python_min = "3.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +8,7 @@ package:
 
 source:
   url: https://github.com/cduck/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: f967ebf89a2eda40d6bf3299e1d3c045efac16f549bb3e0c8c5c5f1eddd1039f
+  sha256: b9e720d554c1d680e509108166760289c29d7c7cf8f7411008bcda7023209d90
 
 build:
   noarch: python
